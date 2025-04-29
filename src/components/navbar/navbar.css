@@ -1,0 +1,76 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  color: #fde8e8;
+  font-size: 1.44em;
+  padding: 16px 24px;
+  position: relative;
+  align-items: center;
+}
+
+.img-div, .contact-div {
+  display: flex;
+  color: #000;
+  gap: 16px;
+  margin: 0;
+  align-items: center;
+  list-style: none;
+}
+
+.menu-button {
+  display: none;
+  font-size: 5px;
+  background: none;
+  cursor: pointer;
+  border: none;
+  width: 5em;
+  height: 5em;
+}
+
+
+#profile-img {
+  height: 3em;
+  width: 3em;
+  border-radius: 100em;
+}
+
+@media (max-width: 768px) {
+  .menu-button {
+    display: flex;
+    margin: 0;
+    width: 2rem;
+    height: 2rem;
+    
+  }
+
+  .contact-div {
+    display: none;
+    flex-direction: column;
+    padding: 0;
+    gap: 0;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+
+  .contat-div.open span {
+    border-top: 1px solid #e6e6e6;
+    width: 100%;
+  }
+
+  .contact-div.open {
+    display: flex;
+  }
+
+  .menu-link {
+    display: flex;
+    width: 100%;
+    padding: 8px 0;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid rgb(238, 238, 238);
+  }
+}

@@ -1,17 +1,28 @@
+import './navbar.css'
+import { useState } from 'react';
+
 
 function Navbar() {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const toggleMenu = (): void => setMenuOpen(!menuOpen);
+
   return (
-    <nav>
-      <div>
-        <img src="/profile.jpeg" alt="foto de perfil" />
-        <span>Guilherme Félix</span>
+    <nav className="navbar">
+      <div className="img-div">
+        <img id="profile-img" src="/profile.jpeg" alt="foto de perfil" />
+        <span>GUILHERME FÉLIX</span>
       </div>
-      <div>
-        <span><a href="">HOME</a></span>
-        <span><a href="">SOBRE</a></span>
-        <span><a href="">PROJETOS</a></span>
-        <span><a href=""></a></span>
-      </div>
+
+      <button className='menu-button' onClick={toggleMenu}>
+        <img src="/menu-aberto.png" alt="menu-contato" className='icon-button'/>
+      </button>
+
+      <ul className={`contact-div ${menuOpen ? 'open' : ''}`}>
+        <li className='menu-link'><a href="">HOME</a></li>
+        <li className='menu-link'><a href="">SOBRE</a></li>
+        <li className='menu-link'><a href="">PROJETOS</a></li>
+        <li className='menu-link'><a href="">CONTATO</a></li>
+      </ul>
     </nav>
   );
 }
