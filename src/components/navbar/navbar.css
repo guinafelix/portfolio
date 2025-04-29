@@ -4,7 +4,8 @@
   flex-direction: row;
   color: #fde8e8;
   font-size: 1.44em;
-  padding: 16px 24px;
+  font-family: 'Barlow Condesed Semibold';
+  padding: 1rem 5rem;
   position: relative;
   align-items: center;
 }
@@ -12,7 +13,7 @@
 .img-div, .contact-div {
   display: flex;
   color: #000;
-  gap: 16px;
+  gap: 1rem;
   margin: 0;
   align-items: center;
   list-style: none;
@@ -20,7 +21,7 @@
 
 .menu-button {
   display: none;
-  font-size: 5px;
+  font-size: 5rem;
   background: none;
   cursor: pointer;
   border: none;

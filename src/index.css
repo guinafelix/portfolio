@@ -51,6 +51,12 @@ h1 {
 }
 
 @font-face {
+  font-family: "Barlow Condesed Semibold";
+  src: local("Barlow_Condesed"),
+  url('./assets/fonts/Barlow_Condensed/BarlowCondensed-SemiBold.ttf')
+}
+
+@font-face {
   font-family: "Barlow Condesed";
   src: local("Barlow_Condesed"),
   url('./assets/fonts/Barlow_Condensed/BarlowCondensed-Regular.ttf')
