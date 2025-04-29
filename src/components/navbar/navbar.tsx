@@ -2,7 +2,7 @@ import './navbar.css'
 import { useState } from 'react';
 
 
-function Navbar() {
+export default function Navbar(){
   const [menuOpen, setMenuOpen] = useState(false);
   const toggleMenu = (): void => setMenuOpen(!menuOpen);
 
@@ -26,5 +26,3 @@ function Navbar() {
     </nav>
   );
 }
-
-export default Navbar;

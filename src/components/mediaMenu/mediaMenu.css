@@ -1,0 +1,29 @@
+.media-menu {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  height: fit-content;
+  justify-content: space-between;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.media-menu img {
+  height: 1.5em;
+  width: 1.5em;
+}
+
+.media-menu-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.4rem;
+}
+
+.media-menu-list li {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.media-menu-list li:hover {
+  background-color: #e6e6e6;
+}
