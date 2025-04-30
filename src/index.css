@@ -37,6 +37,26 @@ h1 {
   line-height: 1.1;
 }
 
+.button {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  font-weight: 600;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 5px;
+  background: #0a0096;
+  padding: 1rem 3rem;
+  border: none;
+  font-family: sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #747bff;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

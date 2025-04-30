@@ -1,15 +1,20 @@
 import MediaMenu from "../mediaMenu/mediaMenu"
+import './introduction.css'
 
 export default function Introduction() {
   return (
-    <div>
+    <section className="introduction">
       <MediaMenu/>
-      <div>
-        <div>paragrafo</div>
-        <button>
-
+      <div className="introduction-content">
+        <h1 className="introduction-header">OLÁ, EU SOU O GUILHERME FÉLIX</h1>
+        <div className="introduction-info">
+          <p className="introduction-paragraph">Desenvolvedor Full Stack com experiência em desenvolvimento de aplicações 
+            web acessíveis e escaláveis em diferentes stacks como Java, Javascript e PHP.</p>
+        </div>
+        <button className="button">
+          projetos
         </button>
       </div>
-    </div>
+    </section>
   )
 }
