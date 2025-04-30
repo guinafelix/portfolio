@@ -81,3 +81,9 @@ h1 {
   src: local("Barlow_Condesed"),
   url('./assets/fonts/Barlow_Condensed/BarlowCondensed-Regular.ttf')
 }
+
+@font-face {
+  font-family: "Barlow Condesed Light";
+  src: local("Barlow_Condesed"),
+  url('./assets/fonts/Barlow_Condensed/BarlowCondensed-Light.ttf')
+}
