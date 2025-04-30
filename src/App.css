@@ -44,3 +44,15 @@ html, body, #root {
 ul, ol {
   all: unset;
 }
+
+@media only screen and (max-width: 56.25em) {
+  html {
+    font-size: 56%;
+  }
+}
+
+@media only screen and (max-width: 75em) {
+  html {
+      font-size: 65%;
+  }
+}
