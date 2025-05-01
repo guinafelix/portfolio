@@ -4,6 +4,7 @@ import Introduction from './components/introduction/introduction'
 import About from './components/About/about'
 import Projects from './components/projects/projects'
 import Contact from './components/contact/contact'
+import Footer from './components/footer/footer'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
     <About/>
     <Projects/>
     <Contact/>
+    <Footer/>
     </>
   )
 }
