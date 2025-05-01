@@ -19,7 +19,7 @@
 }
 
 .about-span {
-  font-size: 1.3rem;
+  font-size: 1.7rem;
   max-width: 80%;
   color: #666;
   text-align: center;
@@ -48,7 +48,7 @@
 }
 
 .about-content-paragraph {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   line-height: 1.7;
   font-family: 'Barlow Condesed Light';
   max-width: 60rem;
@@ -60,7 +60,7 @@
 }
 
 .skills-container {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   gap: 1rem;
   display: flex;
   flex-direction: column;
@@ -84,6 +84,7 @@
   .about-span {
     font-size: 1.8rem;
   }
+
 }
 
 @media only screen and (max-width: 56.25em) {
