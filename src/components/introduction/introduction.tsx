@@ -16,9 +16,7 @@ export default function Introduction() {
         </button>
       </div>
       <div className="home-scroll">
-        <div className="mouse">
-          
-        </div>
+        <div className="mouse"></div>
       </div>
     </section>
   )

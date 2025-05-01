@@ -71,6 +71,12 @@ h1 {
   }
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: "Barlow Condesed Semibold";
   src: local("Barlow_Condesed"),
