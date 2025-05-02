@@ -30,7 +30,7 @@ export default function Contact() {
   };
 
   return (
-    <section className='contact-section'>
+    <section className='contact-section' id='contact-section'>
       {loading && <Loading />}
       <div className='contact-container'>
         <h2 className='projects-header'>Contato</h2>

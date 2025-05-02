@@ -3,7 +3,7 @@ import './introduction.css'
 
 export default function Introduction() {
   return (
-    <section className="introduction">
+    <section className="introduction" id="introduction">
       <MediaMenu/>
       <div className="introduction-content">
         <h1 className="introduction-header">OLÁ, EU SOU O GUILHERME FÉLIX</h1>

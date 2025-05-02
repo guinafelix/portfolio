@@ -19,10 +19,10 @@ export default function Navbar(){
         </button>
 
         <ul className={`contact-div ${menuOpen ? 'open' : ''}`}>
-          <li className='menu-link'><a href="">HOME</a></li>
-          <li className='menu-link'><a href="">SOBRE</a></li>
-          <li className='menu-link'><a href="">PROJETOS</a></li>
-          <li className='menu-link'><a href="">CONTATO</a></li>
+          <li className='menu-link'><a href="#introduction">HOME</a></li>
+          <li className='menu-link'><a href="#about-section">SOBRE</a></li>
+          <li className='menu-link'><a href="#projects">PROJETOS</a></li>
+          <li className='menu-link'><a href="#contact-section">CONTATO</a></li>
         </ul>
       </nav>
     </header>

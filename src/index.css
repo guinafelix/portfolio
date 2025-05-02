@@ -77,6 +77,10 @@ h1 {
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @font-face {
   font-family: "Barlow Condesed Semibold";
   src: local("Barlow_Condesed"),

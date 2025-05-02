@@ -40,7 +40,7 @@ export default function About(){
   ]
 
   return (
-    <section className="about">
+    <section className="about" id='about-section'>
       <div className="about-container">
         <h2 className='about-header'>Sobre mim</h2>
         <span className='about-span'>
