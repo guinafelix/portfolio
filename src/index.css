@@ -61,7 +61,7 @@ h1 {
 }
 
 .button:hover {
-  background-color: #747bff;
+  background-color: lightblue;
   color: #000;
   transform: translateY(-3px);
 }

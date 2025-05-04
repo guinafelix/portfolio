@@ -72,6 +72,11 @@
   -webkit-animation: wheel 1.3s infinite;
 }
 
+.project-button {
+  padding: 1.5rem 7rem;
+  font-size: 1.3rem;
+}
+
 @keyframes wheel {
   0% {
     top: 7px;
