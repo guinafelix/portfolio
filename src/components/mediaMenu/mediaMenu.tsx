@@ -29,7 +29,7 @@ export default function MediaMenu() {
       <ul className='media-menu-list'>
         {
           socialMediaData.map(item => (
-            <li className='media-menu-list'>
+            <li className='media-menu-list' key={item.id}>
                   <a href={item.link}>
                     <img src={item.url} alt={item.id} />
                   </a>

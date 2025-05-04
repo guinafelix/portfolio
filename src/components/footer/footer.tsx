@@ -38,7 +38,7 @@ export default function Footer() {
             <ul className='social-info-list'>
               {
                 socialMediaData.map(item => (
-                  <li className='social-info-list'>
+                  <li className='social-info-list' key={item.id}>
                         <a href={item.link}>
                           <img src={item.url} alt={item.id} />
                         </a>
@@ -53,8 +53,6 @@ export default function Footer() {
             &copy; Copyright {new Date().getFullYear()}.
             Desenvolvido por <strong>Guilherme Félix</strong>
           </p>
-    
-   
         </div>
       </div>
     </footer>

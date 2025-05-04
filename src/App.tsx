@@ -1,23 +1,15 @@
 import './App.css'
-import Navbar from './components/navbar/navbar'
-import Introduction from './components/introduction/introduction'
-import About from './components/About/about'
-import Projects from './components/projects/projects'
-import Contact from './components/contact/contact'
-import Footer from './components/footer/footer'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Home from './components/home/home'
+import ProjectInfo from './components/projects/project-info'
 
-function App() {
-
+export default function App() {
   return (
-    <>
-    <Navbar/>
-    <Introduction/>
-    <About/>
-    <Projects/>
-    <Contact/>
-    <Footer/>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path='projects/:name' element={<ProjectInfo/>}/>
+      </Routes>
+    </BrowserRouter>
   )
 }
-
-export default App

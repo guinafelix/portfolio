@@ -1,28 +1,9 @@
+import { ProjectsDB } from './projects-data'
 import './projects.css'
-
-interface ProjectsData {
-  name: string;
-  imgUrl: string;
-  description: string;
-  projectPage: string;
-}
 
 export default function Projects() {
 
-  const projects: ProjectsData[] = [
-    {
-      name: 'Gestão',
-      imgUrl: 'image.png',
-      description: 'Sistema de gestão de empresas feito em Php 7 e Laravel',
-      projectPage: 'linkTeste'
-    },
-    {
-      name: 'Gestão',
-      imgUrl: 'image.png',
-      description: 'Sistema de gestão de empresas feito em Php 7 e Laravel',
-      projectPage: 'linkTeste'
-    }
-  ]
+  const projects = ProjectsDB;
 
   return (
     <section className="projects" id="projects">
@@ -37,15 +18,15 @@ export default function Projects() {
         {
           projects.map(item => (
             <ul>
-              <li>
+              <li key={item.title}>
                 <div className='projects-info'>
                   <div className='project-img'>
                     <img src={item.imgUrl} alt="" className='project-img-content'/>
                   </div>
                   <div className='project-info'>
-                    <h3>{item.name}</h3>
+                    <h3>{item.title}</h3>
                     <p>{item.description}</p>
-                    <button className='button'>Caso de estudo</button>
+                    <a href={`/projects/${item.title}`} target='_blank' className='button'>Caso de estudo</a>
                   </div>
                 </div>
               </li>

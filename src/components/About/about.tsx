@@ -71,7 +71,7 @@ export default function About(){
               <div className='skill-card-container'>
                 {
                   skillData.map(item => (
-                    <div className='skill-card'>
+                    <div className='skill-card' key={item.name}>
                       {item.name}
                     </div>
                   ))

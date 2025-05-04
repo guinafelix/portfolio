@@ -51,11 +51,24 @@ h1 {
   justify-content: center;
   font-family: sans-serif;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  text-align: center;
+  transition: background-color 0.4s ease, transform 0.3s ease;
+}
+
+.button.secondary {
+  color: #000;
+  background-color: transparent;
 }
 
 .button:hover {
   background-color: #747bff;
+  color: #000;
+  transform: translateY(-3px);
+}
+
+.button.secondary:hover {
+  color: #fff;
+  border: 3px solid #0a0096;
 }
 
 @media (prefers-color-scheme: light) {
