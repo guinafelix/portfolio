@@ -15,8 +15,9 @@ export default function Navbar(){
         </div>
 
         <button className='navbar-button' onClick={toggleMenu}>
-          <img src="/menu-aberto.png" alt="menu-contato" />
+          <img src="/menu-aberto.png" className='navbar-menu-image' alt="menu-contato" />
         </button>
+        
         <ul className={`contact-div ${menuOpen ? 'open' : ''}`}>
           <li className='menu-link'><a href="/">HOME</a></li>
           <li className='menu-link'><a href="#about-section">SOBRE</a></li>
