@@ -22,8 +22,7 @@ export default function ProjectInfo() {
           <div className="project-content">
             <div className="project-desc">
               <h2>{project.title}</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non ex urna. Nullam ultricies venenatis odio vel suscipit. Praesent at interdum magna. Nam lacinia, turpis nec accumsan pharetra, ex velit lacinia velit, sit amet congue dui quam at lorem. Phasellus ornare accumsan est, sed ultricies dolor ultrices eget. Donec feugiat ac nisl eget aliquet. Donec pretium neque ac nisl laoreet, ac tristique tortor lobortis. Morbi molestie feugiat odio ac pellentesque. Phasellus lobortis tortor sit amet orci efficitur porta. Vestibulum lacus nulla, mattis tempus dui et, efficitur ullamcorper sapien. Ut eu elit tortor. Nulla facilisi. Praesent ac leo ex. 
-                Phasellus convallis ultricies mi, sed commodo purus iaculis sed.</p>
+              <p>{project.description}</p>
             </div>
             <div className="tools-used">
               <h2>Ferramentas utilizadas</h2>
