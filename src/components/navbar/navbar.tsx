@@ -14,10 +14,9 @@ export default function Navbar(){
           <span>GUILHERME FÉLIX</span>
         </div>
 
-        <button className='menu-button' onClick={toggleMenu}>
-          <img src="/menu-aberto.png" alt="menu-contato" className='icon-button'/>
+        <button className='navbar-button' onClick={toggleMenu}>
+          <img src="/menu-aberto.png" alt="menu-contato" />
         </button>
-
         <ul className={`contact-div ${menuOpen ? 'open' : ''}`}>
           <li className='menu-link'><a href="/">HOME</a></li>
           <li className='menu-link'><a href="#about-section">SOBRE</a></li>

@@ -21,9 +21,9 @@ export default function Introduction({ info }: IntroductionProps) {
             {info ? `Esta página contém o estudo de caso do desenvolvimento de ${info.title}, incluíndo a visão geral, ferramentas utilizadas e os endereços para visualizar o projeto em tempo real.` 
             : 'Engenheiro de Software com experiência em desenvolvimento de aplicações web acessíveis e escaláveis em diferentes stacks como Java, Javascript, Typescript e PHP.'}</p>
         </div>
-        <button className="button project-button">
+        <a href="#projects" className="button project-button">
           { info?.title ? 'acessar aplicação' : 'projetos'}
-        </button>
+        </a>
       </div>
       {!info &&
       <div className="home-scroll">

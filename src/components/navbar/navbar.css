@@ -29,16 +29,14 @@
   list-style: none;
 }
 
-.menu-button {
+.navbar-button {
   display: none;
-  font-size: 5rem;
+  width: 24px;
+  height: 24px;
   background: none;
-  cursor: pointer;
   border: none;
-  width: 5em;
-  height: 5em;
+  cursor: pointer;
 }
-
 
 #profile-img {
   height: 2em;
@@ -48,12 +46,8 @@
 }
 
 @media (max-width: 768px) {
-  .menu-button {
+  .navbar-button {
     display: flex;
-    margin: 0;
-    width: 2rem;
-    height: 2rem;
-    
   }
 
   .contact-div {
