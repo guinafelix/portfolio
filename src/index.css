@@ -68,7 +68,6 @@ h1 {
 
 .button.secondary:hover {
   color: #fff;
-  border: 3px solid #0a0096;
 }
 
 @media (prefers-color-scheme: light) {
